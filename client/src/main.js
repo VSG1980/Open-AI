@@ -19,7 +19,7 @@ async function sendChatRequest(event) {
   responsesDiv.classList.remove("fade-in");
 
   try {
-    const response = await fetch("http://localhost:8080/chat", {
+    const response = await fetch("https://open-ai-gx8n.onrender.com", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
