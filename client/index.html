@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Knowledge AI App</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div id="word-wall"></div>
+
+    <h1>I want more knowledge in...</h1>
+    <form>
+      <label for="clientPrompt">Enter your focus area</label>
+      <input
+        name="clientPrompt"
+        id="clientPrompt"
+        placeholder="e.g. wealth, leadership, fitness, success"
+      />
+      <button type="submit">Go!</button>
+    </form>
+
+    <div id="responses"></div>
+
+    <script src="/wordwall.js"></script>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
